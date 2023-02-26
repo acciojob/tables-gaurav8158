@@ -18,8 +18,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-	<table class="table font-monospace, text-end, fw-bold">
-		 <thead class="thead-dark">
+	<table class="table-responsive table-hover table font-monospace, text-end, fw-bold">
+		 <thead class="table-dark">
 			<tr>
 			<th>#</th>
 			<th>Form</th>
@@ -27,8 +27,8 @@
 			<th>Amount($)</th>
 		</tr>
 		</thead>
-		
-		<tr >
+		<tfoot>
+			<tr >
 			<td>1</td>
 			<td>Mark</td>
 			<td>Otto</td>						
@@ -47,10 +47,10 @@
 			<td class="price">2000</td>
 		</tr>
 		<tr class="font-weight-bold">
-			<td colspan=2></td>
-			<td class="text-right font-weight-bold">Total</td>
-      <td id="total" class="total"></td>
-    </tr>
+      <td id="total" colspan="3" class="font-weight-bold total">Total</td>
+    </tr>	
+		</tfoot>
+	
 	</table>
 
 </body>
